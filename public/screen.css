@@ -68,3 +68,7 @@ fieldset i.add {
 fieldset i.subtract {
   color: #f64545;
 }
+fieldset button {
+  margin: 1rem;
+  padding: 0.4rem;
+}
