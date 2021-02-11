@@ -39,6 +39,9 @@ h1 {
   font-family: Monospace;
   margin: 1rem 0 3rem 0;
 }
+header {
+  width: 100vw;
+}
 
 main {
   width: 100vw;
