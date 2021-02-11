@@ -18,31 +18,38 @@
     <main>
       <section class="team1">
         <h2 class="Team1Name"></h2>
-        <h3>0</h3>
+        <h3 class="team1Points">0</h3>
         <fieldset>
           <input type="text" class="Team1NameInput" />
           <button class="update-TeamName1-Button">Update</button>
         </fieldset>
 
         <fieldset>
-          <i class="add fas fa-2x fa-plus-circle"></i>
-          <i class="subtract fas fa-2x fa-minus-circle"></i>
+          <i id="oneAddButton" class="add fas fa-2x fa-plus-circle"></i>
+          <i
+            id="oneSubtractButton"
+            class="subtract fas fa-2x fa-minus-circle"
+          ></i>
         </fieldset>
       </section>
 
       <section class="team2">
-        <h2>Team 2</h2>
-        <h3>0</h3>
+        <h2 class="Team2Name">Team 2</h2>
+        <h3 class="team2Points">0</h3>
         <fieldset>
           <input type="text" class="Team2NameInput" />
           <button class="update-TeamName2-Button">Update</button>
         </fieldset>
 
         <fieldset>
-          <i class="add fas fa-2x fa-plus-circle"></i>
-          <i class="subtract fas fa-2x fa-minus-circle"></i>
+          <i id="twoAddButton" class="add fas fa-2x fa-plus-circle"></i>
+          <i
+            id="twoSubtractButton"
+            class="subtract fas fa-2x fa-minus-circle"
+          ></i>
         </fieldset>
       </section>
+      <button id="Reset">Reset</button>
     </main>
 
     <script src="/main.js" charset="utf-8"></script>
